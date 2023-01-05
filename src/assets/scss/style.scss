@@ -1,0 +1,44 @@
+@import './libs/bootstrap.min.scss';
+
+
+
+.container {
+	max-width: 1280px;
+	width: 100%;
+}
+
+
+body {
+	font-family: "GTEestiProText", Arial, sans-serif;
+}
+
+button {
+	outline: transparent;
+
+	&:focus {
+		outline: transparent;
+	}
+}
+
+
+@import './fonts';
+@import './nav';
+@import './cart';
+@import './filter';
+@import './card';
+@import './category';
+@import './btn';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
